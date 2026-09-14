@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="cadastro.js" defer></script>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Quiz de Desemvolvimento de Sistemas</h1>
+    </header>
+
+    <main>
+        <div id="c">
+            <form>
+                <h2>Cadastro</h2>
+
+                <div class="campo">
+                    <label for="email">Digite seu e-mail:</label>
+                    <input type="email" id="email" placeholder="Digite aqui">
+                </div>
+
+                <div class="campo">
+                    <label for="user">Digite seu nome de usuario:</label>
+                    <input type="text" id="user" minlength="4" maxlength="20" placeholder="Minimo 4-20 caracteres">
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" minlength="7" placeholder="Minimo de 7 caracteres">
+                </div>
+
+                <div class="campo">
+                    <label for="confirmarSenha">Confirme a senha:</label>
+                    <input type="password" minlength="7" id="confirmarSenha">
+                </div>
+
+                <button type="submit">Cadastrar</button>
+                <p>Já possui uma conta?<a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os Direitos Reservados</p>
+        <p>Desenvolvido por: <a href="https://github.com/Schutz-br">Kryzn</a></p>
+    </footer>
+
+</body>
+
+</html>

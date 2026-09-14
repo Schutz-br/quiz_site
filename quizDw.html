@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Desenvolvimento web</title>
+    <script src="quizDw.js" defer></script>
+    <link rel="stylesheet" href="quizDw.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz de Desenvolvimeto de Sistemas</h1>
+        <span id="placar" aria-live="polite">0 pontos</span>
+    </header>
+
+    <main>
+        <div id="c">
+            <form>
+                <div id="titulo"></div>
+            </form>
+        </div>
+
+        <div id="r">
+            <form>
+                <button id="btnR1" type="button">
+                        <span id="r1"></span>
+                </button>
+                <button id="btnR2" type="button">
+                        <span id="r2"></span>
+                </button>
+                <button id="btnR3" type="button">
+                        <span id="r3"></span>
+                </button>
+                <button id="btnR4" type="button">
+                        <span id="r4"></span>
+                </button>
+                
+                <div id="modal" class="modal-overlay hidden">
+                    <div class="modal-box">
+                        <div id="resultado"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; Todos os Direitos Reservados</p>
+        <p>Desenvolvido por: <a href="https://github.com/Schutz-br">Kryzn</a></p>
+    </footer>
+</body>
+
+</html>
